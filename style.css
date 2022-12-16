@@ -1,0 +1,1643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+    
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: brown;
+}
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./black.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 126vh;
+    
+    
+}
+.logo h4{
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 50px;
+    color: white;
+    transition: .3s linear;
+    
+}
+.logo h4 span{
+    color: brown;
+}
+    
+.navbar{
+    display:flex;
+    padding: 0 40px;
+    transition: 0.3s linear;
+    
+
+}
+nav{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 40px;
+    transition: 0.3s linear;
+}
+nav #home{
+    list-style-type: none;
+    
+}
+nav #home li{
+    display: inline-block;
+    position: relative;
+    
+}
+#bars{
+    color: brown;
+    text-align: right;
+    font-size: 20px;
+    display: none;
+    padding-left: 45rem;
+    margin-top: -10px;
+}
+nav #home li a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+    font-weight:500;
+    font-size: 15px;
+    transition: 0.3s linear;
+}
+nav #home li a:hover, nav #home li a.active{
+    color:brown;
+    transition: 0.3s;
+}
+nav #home li a.active::after, nav #home li a:hover::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color:brown;
+    position: absolute;
+    bottom: -4px;
+    left: 1px;
+}
+
+.title{
+    padding-left:  80px;
+    padding-right: 80px;
+    margin-top: -35rem;
+    color:white
+}
+.title h1{
+    font-size: 50px;
+    font-weight: 800 ;
+    transition: 0.3s linear;
+    
+}
+.title h4{
+    padding: 35px 0;
+    font-size: 18px;
+    font-weight: 100;
+}
+.btn{
+    margin-top:30px ;
+    padding: 18px 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    background-color:brown;
+    border: none;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: white;
+    background: none;
+    border: 1px solid brown;    
+}
+.btn3{
+    margin-top:30px ;
+    padding: 18px 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    background-color:brown;
+    border: none;
+    cursor: pointer;
+
+}
+.btn3:hover{
+    color:black;
+    background: none;
+    border: 1px solid brown;  
+    transition: 0.4s;
+}
+.step2{
+    margin-top:17rem;
+    margin-bottom: 80px;
+}
+.step2 .container{
+    min-width: 1300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.row{
+    min-width: 1080px;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+}
+.step2 img{
+    width: 400px;
+    
+}
+.step3{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 80px;
+    background: #1d2026;
+    
+}
+.step8 h1{
+    font-weight:800;
+    background: url(./button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 20px ;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+}
+.caption h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 12%;
+    text-align: left;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+
+    
+}
+.step3 img{
+    width: 77%;
+    padding-top: 80px;
+    transition: 0.6s;
+    border-radius: 30px;
+    
+}
+.step3 img:hover{
+    transform: scale(1.1);
+    
+}
+.boxing{
+text-align: center;
+background: #1d2026;
+
+}
+.boxing img{
+    width: 80%;
+    padding-left: 10px;
+    transition: 0.6s;
+    border-radius: 30px;
+}
+.boxing img:hover{
+    transform: scale(1.1);
+}
+.boxing .caption h3{
+    font-size: 20px;
+    padding: 10px 12%;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 800;
+    
+}
+.classbtn{
+    margin: 50px 0;
+    text-align: center;
+}
+.step4{
+    padding: 110px 60px;
+    background: #1d2026;
+}
+.title2 h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+.plan{
+    margin: 100px 50px;
+
+}
+.plan h1{
+    text-align: center;
+    background: url(./button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px ;
+    font-weight: 800;
+    font-size: 40px;
+}
+.col-3{
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-inline: -26px;
+    
+}
+.plan .plans .row .col-3{
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 40px 8px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    margin-inline: 20px;
+    background:#1d2026;
+    color: white;
+    border-bottom-right-radius: 70px;
+
+}
+.col-3:hover{
+    transform: translateY(-8px);
+    transition: 0.5s ease;
+}
+.col-3 h3{
+    font-size: 14px;
+    color:brown;
+    padding-bottom: 10px;
+}
+.col-3 h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.col-3 p{
+    font-size: 11px;
+    padding-bottom:15px ;
+    margin-top:10px ;
+    text-align: center;
+}
+.btn2{
+    padding: 10px 10px;
+    background: brown;
+    color: white;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+   margin-top:20px ; 
+}
+.fas.fa-check{
+    color: brown;
+}
+.trainers h1{
+    margin: 70px ;    
+}
+.trainers h1 span{
+    color: brown;
+}
+
+.col-4{
+   min-width: 200px;
+   min-height: 50vh;
+   justify-content: center;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+   border-bottom-right-radius: 50px;
+   margin:0px 100px;
+   align-items: center;
+   flex-direction: row;
+   margin-inline:10px;
+   cursor: pointer;
+}
+.col-4 img{
+    width:100%;
+    height: 50vh;
+    align-items: center;
+    display: block;
+    transition: 0.6s;
+    
+}
+.col-4 img:hover{
+    transform: scale(1.1);
+}
+.col-4 .caption2 h5{
+    font-size: 12px;
+    color:brown;
+    padding-left: 4px;
+
+}
+.col-4 .caption2 h3{
+    font-size: 15px;
+    color: white;
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+.col-4 .caption2{
+    padding: 20px 0 0 0;
+    background:#1d2026;
+    border-bottom-right-radius: 50px;
+     
+}
+.join{
+    padding: 130px 60px;
+    margin: 150px -50px;
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./bodybuilder.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.join h1{
+    background: none;
+    color: white;
+}
+.join h5{
+    color: brown;
+    font-size: 15px;
+}
+.join p{
+    color: white;
+    font-size: 12px;
+}
+.join .btn2{
+    padding: 10px 10px;
+    background: brown;
+    color: white;
+    border: none;
+    border-radius:10px;
+   margin-top:30px ; 
+   cursor: pointer;
+}
+.join .btn2:hover{
+    color: white;
+    background: none;
+    border: 1px solid brown;
+    box-shadow: 0 0 5px 0  rgb(0, 0, 0);
+}
+.supplement{
+    margin: 30px 20px;
+    padding: 0;
+    position: relative;
+    
+}
+.supplement p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.supplement h1{
+    background: none;
+    text-align: left;
+}
+.supplement .col-2{
+    
+    display: flex;
+
+}
+.supplement .col-2 img{
+    width: 70%;
+    height:70vh;
+    margin-top: 50px;
+    display: block;
+    margin-inline: 230px;
+    
+    
+}
+.nutritions{
+    display:block;
+    border: 2px solid black;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px 20px;
+    background: #1d2026;
+    color: white;
+    border-bottom-right-radius: 100px;
+}
+.nutritions p{
+    margin-left: 14px;
+    font-size: 13px;
+}
+.nutritions h4{
+    color: brown;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-left: 20px;
+}
+.nutritions ul li{
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.join2 .btn{
+    margin-top:30px ;
+    padding: 20px 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    background-color:brown;
+    border: none;
+    margin-left: 50%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.join2 .btn:hover{
+    background: none;
+    border: 1px solid brown;
+}
+.join2{
+    padding: 130px 70px;
+    margin: 150px -50px;
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./young-healthy-man-athlete-posing-confident-with-ropes-gym.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+.join2 h1{
+    text-align: right;
+    background: none;
+    font-size: 30px;
+}
+.choose h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 90px;
+    color: brown;
+}
+.choose p{
+    text-align: center;
+    padding-top:30px ;
+}
+.choose p span{
+    color: brown;
+    font-weight: 700;
+}
+.button{
+    margin-left: 22%;
+    margin-top: 80px;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    background: brown;
+    border: 1px solid brown;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button:hover{
+    color:black;
+    background: none;
+}
+.title3{
+    margin-top: 100px;
+    margin-left: -50px;
+    margin-right: -50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./juan-pablo-rodriguez-X6jtULYJQz8-unsplash.jpg);
+    padding-top: 90px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: white;
+}
+.title3 h2{
+    font-size: 47px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 130px;
+}
+.title3 h2 span{
+    color: brown;
+    font-weight: 900;
+}
+.footer{
+    
+    height: 90vh;
+    margin-left: -50px;
+    margin-right: -50px;
+    background: #1d2026;
+    padding: 80px 0px;
+    overflow-y: hidden;
+
+    
+    
+}
+.footer .links{
+    margin-inline:75px ;
+    display: inline-block;
+    cursor: pointer;
+}
+.footer .links h6{
+    color:brown;
+    font-size: 18px;
+    padding-bottom: 15px;
+}       
+.footer .links p{
+    color: white;
+    padding-bottom: 17px;
+    font-size: 14px;
+}
+.footer .links p span{
+    color: brown;
+    font-size: 12px;
+    font-style: italic;
+}
+.fab.fa-facebook-square{
+    color: #3b5998;
+    font-size: 20px;
+    padding-right:5px ;
+
+    
+}
+.fab.fa-twitter{
+    color:#00acee;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.fab.fa-instagram-square{
+    color: #8a3ab9 ;
+    font-size: 23px;
+    padding-right: 5px;
+}
+.fab.fa-linkedin-in{
+    color: #0077b5;
+    font-size: 20px;
+}
+.fas.fa-phone-alt{
+    color: brown;
+    font-weight: 900;
+    font-size: 18px;
+}
+input{
+    width: 65%;
+    padding: 10px 5px;
+    margin-inline: -3px;
+}
+.btn5{
+    padding: 12px 10px;
+    background: brown;
+    color: white;
+    border: none;
+    
+    cursor: pointer;
+   margin-top:20px ; 
+}
+.btn5:hover{
+    color: white;
+    background: transparent;
+    border:1px solid brown;
+}
+input:hover{
+    border: 3px solid black;
+}
+.copy{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 20px;
+    
+}
+.copy h6 span{
+    color: brown;
+}
+.copy h6 a{
+    color: white;
+    text-decoration: none;
+}
+.copy h6 a:hover{
+    text-decoration:underline;
+}
+
+
+
+/*---Media query---*/
+
+@media screen and (max-width:1042px) {
+    
+}
+
+@media screen and (max-width:991px) {
+    .logo h4{
+        font-size: 25px;
+        margin-left: 20px;
+        color: white;   
+        display: flex;
+    }
+        
+    .navbar{
+        
+        padding: 0 20px;
+        
+    
+    }
+    nav{
+        margin-top: 55px;
+    
+    
+    }
+    nav #home{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80vh;
+        position:fixed;
+        margin-top: 4.2rem;
+        top: 0;
+        right: -300px;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 100000;
+        transition: 0.5s;
+    }
+    nav #home li{
+        display: inline-block;
+        position: relative;
+        padding-bottom: 2rem;
+        text-align: center;
+    
+        
+    }
+    #bars{
+        color: brown;
+        text-align: right;
+        font-size: 20px;
+        display: initial;
+        padding-left: 45rem;
+        margin-top: -10px;
+    }
+    nav #home li a{
+        text-decoration: none;
+        
+        color: white;
+        font-weight:500;
+        font-size: 15px;
+        padding-left: 3.5rem;
+        
+    
+    }
+    nav #home li a:hover, nav #home li a.active{
+        color:brown;
+        transition: 0.3s;
+    }
+    nav #home li a.active::after, nav #home li a:hover::after {
+        opacity: 0;
+    }
+    .step8 h1{
+        font-weight: 800;
+        margin-bottom: 25px;
+        font-size: 30px;
+        
+    }
+    .plan h1{
+        font-size: 30px;
+    }
+    .choose h2{
+        font-size: 50px;
+        text-align: center;
+        font-weight: 900;
+        margin-top: 90px;
+        color: brown;
+    }
+    .choose p{
+        font-size: 14px;
+        padding-top:25px ;
+    }
+    .choose p span{
+        color: brown;
+        font-weight: 700;
+    }
+    .button{
+        margin-left: 16%;
+        padding: 13px 28px;
+        color: white;
+        background: brown;
+        border: 1px solid brown;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .btn3{
+        margin-top:25px ;
+        padding: 16px 38px;
+        font-size: 14px;
+        
+    }
+    .title{
+        padding-left:  80px;
+        padding-right: 80px;
+        margin-top: -35rem;
+        color:white
+    }
+    .title h1{
+        font-size: 40px;
+        font-weight: 800 ;
+        
+    }
+    .title h4{
+        padding: 35px 0;
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .btn{
+        margin-top:30px ;
+        padding: 18px 40px;
+        font-size: 12px;
+        border-radius: 10px;
+        color: white;
+        background-color:brown;
+        border: none;
+        cursor: pointer;
+    
+    }
+    .btn:hover{
+        color: white;
+        background: none;
+        border: 1px solid brown;    
+    }
+    
+    .step2 .container{
+        min-width: 900px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    .row{
+        min-width: 500px;
+        align-items: center;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .step2 img{
+        width: 310px;
+        
+    }
+    .title3{
+        padding-top: 80px;
+        height: 80vh;
+    }
+    .title3 h2{
+        font-size: 35px;
+        padding-top: 130px;
+    }
+    .col-4 img{
+        height: 45vh;        
+    }
+    .col-4 .caption2 h5{
+        font-size: 11px;
+    
+    }
+    .col-4 .caption2 h3{
+        font-size: 13px;
+    }
+    .col-4 .caption2{
+        padding: 18px 0 0 0;
+         
+    }
+.supplement{
+    margin: 30px 0px;
+    
+}
+.supplement p{
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.supplement .col-2{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.supplement .col-2 img{
+    width: 60%;
+    height:65vh;
+    margin-top: 48px;
+    margin-inline: 160px;
+    
+    
+}
+
+.nutritions p{
+    margin-left: 14px;
+    font-size: 12px;
+}
+.nutritions h4{
+    padding-bottom: 9px;
+    padding-top:8px;
+    margin-left: 10px;
+}
+.nutritions ul li{
+    padding-bottom: 9px;
+    margin-left: 25px;
+    font-size: 12px;
+}
+.join2 .btn{
+    margin-top:20px ;
+    padding: 12px 30px;
+    font-size: 14px;
+}
+.join2 h1{
+    font-size: 23px;
+}
+.join2{
+    padding: 120px 60px;
+    
+}
+    .footer{
+    
+        height: 90vh;
+        margin-left: -50px;
+        margin-right: -50px;
+        background: #1d2026;
+        padding: 80px 0px;
+        overflow-y: hidden;
+    
+        
+    }
+    .footer .links{
+        margin-inline:75px ;
+        display: inline-block;
+        cursor: pointer;
+    
+    }
+    .footer .links h6{
+        color:brown;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }       
+    .footer .links p{
+        color: white;
+        padding-bottom: 17px;
+        font-size: 13px;
+    }
+    .footer .links p span{
+        color: brown;
+        font-size: 11px;
+        font-style: italic;
+    }
+    .fab.fa-facebook-square{
+        color: #3b5998;
+        font-size: 18px;
+        padding-right:5px ;
+    
+        
+    }
+    .fab.fa-twitter{
+        color:#00acee;
+        font-size: 18px;
+        padding-right: 5px;
+    }
+    .fab.fa-instagram-square{
+        color: #8a3ab9 ;
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    .fab.fa-linkedin-in{
+        color: #0077b5;
+        font-size: 16px;
+    }
+    .fas.fa-phone-alt{
+        color: brown;
+        font-weight: 900;
+        font-size: 16px;
+    }
+    input{
+        width: 65%;
+        padding: 8px 4px;
+        
+    }
+    .btn5{
+        padding: 10px 8px;
+        background: brown;
+        color: white;
+        border: none;
+        cursor: pointer;
+       margin-top:15px ; 
+    }
+    .copy{
+        text-align: center;
+        padding-top: 40px;
+        color: white;
+        font-size: 20px;
+        
+    }
+.join h5{
+    font-size: 14px;
+}
+.join p{
+    font-size: 11px;
+}
+.join h1{
+    font-size: 30px;
+}
+.step4{
+    padding: 100px 50px;
+}
+.title2 h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+}
+
+@media screen and (max-width:768px) {
+
+    .logo h4{
+
+        margin-left: 25px;
+    }
+        
+    .navbar{
+        
+        padding: 0 15px;
+        
+    
+    }
+    nav #home{
+        width: 300px;
+        height: 80vh;
+    }
+    #bars{
+        padding-left: 31rem;
+    }
+    nav #home li a{   
+        font-weight:400;
+        font-size: 14px;
+    }
+    .step8 h1{
+        font-weight: 800;
+        margin-bottom: 25px;
+        font-size: 25px;
+        
+    }
+    .plan h1{
+        font-size: 25px;
+    }
+    .choose h2{
+        font-size: 50px;
+        text-align: center;
+        font-weight: 900;
+        margin-top: 90px;
+        color: brown;
+    }
+    .choose p{
+        font-size: 14px;
+        padding-top:25px ;
+    }
+    .choose p span{
+        color: brown;
+        font-weight: 700;
+    }
+    .button{
+        margin-left: 16%;
+        padding: 13px 28px;
+        color: white;
+        background: brown;
+        border: 1px solid brown;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .btn3{
+        margin-top:25px ;
+        padding: 16px 38px;
+        font-size: 14px;
+        
+    }
+    .title{
+        padding-left:  75px;
+        padding-right: 75px;
+        margin-top: -36rem;
+    }
+    .title h1{
+        font-size: 38px;
+        
+    }
+    .title h4{
+        padding: 32px 0;
+        font-size: 15px;
+    }
+    .btn{
+        margin-top:25px ;
+        padding: 15px 38px;
+        font-size: 11px;
+    
+    }
+    
+    .step2 .container{
+        min-width: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .row{
+        min-width: 0px;
+        align-items: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .step2 img{
+        width: 100%;
+        
+    }
+    .title3{
+        padding-top: 80px;
+        height: 70vh;
+    }
+    .title3 h2{
+        font-size: 30px;
+        padding-top: 110px;
+    }
+    .col-4{
+        min-width: 40%;
+        min-height: 50vh;
+        justify-content: space-between;
+        margin:10px 0px;
+        align-items: center;
+        flex-direction: column;
+    
+     }
+    .col-4 img{
+        height: 50vh;  
+        width: 100%;      
+    }
+    .col-4 .caption2 h5{
+        font-size: 10px;
+        padding-bottom: 5px;
+    
+    }
+    .col-4 .caption2 h3{
+        font-size: 12px;
+    }
+    .col-4 .caption2{
+        padding: 16px 0 0 0;
+         
+    }
+.supplement{
+    margin: 20px 0px;
+    
+}
+.supplement p{
+    font-size: 11px;
+    padding-bottom: 7px;
+}
+.supplement .col-2{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.supplement .col-2 img{
+    width: 40%;
+    height:55vh;
+    margin-top: 45px;
+    margin-inline: 120px;
+    
+    
+}
+
+.nutritions p{
+    margin-left: 12px;
+    font-size: 12px;
+}
+.nutritions h4{
+    padding-bottom: 8px;
+    padding-top:7px;
+    margin-left: 9px;
+}
+.nutritions ul li{
+    padding-bottom: 8px;
+    margin-left: 20px;
+    font-size: 11px;
+}
+.join2 .btn{
+    margin-top:10px ;
+    padding: 10px 15px;
+    font-size: 11px;
+}
+.join2 h1{
+    font-size: 18px;
+}
+.join2{
+    padding: 110px 50px;
+}
+.choose h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 90px;
+    color: brown;
+}
+.choose p{
+    text-align: center;
+    padding-top:30px ;
+}
+.choose p span{
+    color: brown;
+    font-weight: 700;
+}
+.button{
+    margin-left: 30%;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.button:hover{
+    color:black;
+    background: none;
+}
+.step8 img{
+    width: 400px;
+    
+}
+.step3 .cardio img{
+    width: 400px;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.caption h3{
+    font-size: 18px;
+    padding: 11px 11%;
+    text-align: left;
+    font-weight: 800;
+    color: white;
+    margin-bottom:-50px;
+
+    
+}
+.boxing img{
+    width: 400px;
+}
+.boxing .caption h3{
+    font-size: 18px;
+    padding: 11px 11%;
+    margin-bottom: 20px;
+    
+}
+    .footer{
+    
+        height: 90vh;
+        margin-left: -50px;
+        margin-right: -50px;
+        background: #1d2026;
+        padding: 80px 0px;
+        overflow-y: hidden;
+    
+        
+    }
+    .footer .links{
+        margin-inline:75px ;
+        display: inline-block;
+        cursor: pointer;
+    
+    }
+    .footer .links h6{
+        color:brown;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }       
+    .footer .links p{
+        color: white;
+        padding-bottom: 17px;
+        font-size: 13px;
+    }
+    .footer .links p span{
+        color: brown;
+        font-size: 11px;
+        font-style: italic;
+    }
+    .fab.fa-facebook-square{
+        color: #3b5998;
+        font-size: 18px;
+        padding-right:5px ;
+    
+        
+    }
+    .fab.fa-twitter{
+        color:#00acee;
+        font-size: 18px;
+        padding-right: 5px;
+    }
+    .fab.fa-instagram-square{
+        color: #8a3ab9 ;
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    .fab.fa-linkedin-in{
+        color: #0077b5;
+        font-size: 16px;
+    }
+    .fas.fa-phone-alt{
+        color: brown;
+        font-weight: 900;
+        font-size: 16px;
+    }
+    input{
+        width: 65%;
+        padding: 8px 4px;
+        
+    }
+    .btn5{
+        padding: 10px 8px;
+        background: brown;
+        color: white;
+        border: none;
+        cursor: pointer;
+       margin-top:10px ; 
+    }
+    .copy{
+        text-align: center;
+        padding-top: 40px;
+        color: white;
+        font-size: 20px;
+        
+    }
+.join h5{
+    font-size: 12px;
+}
+.join p{
+    font-size: 10px;
+}
+.join h1{
+    font-size: 25px;
+}
+.step4{
+    padding: 90px 40px;
+}
+.title2 h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+}
+
+@media screen and (max-width:496px) {
+    
+    .logo h4{
+        font-size: 27px;
+        margin-left: 25px;
+        padding-top: 40px;
+        display: flex;
+        
+    }
+        
+    .navbar{
+        display: flex;
+        padding: 0 15px;
+        
+    
+    }
+    nav #home{
+        width: 300px;
+        height: 80vh;
+    }
+    #bars{
+        padding-left: 12rem;
+    }
+    nav #home li a{   
+        font-weight:400;
+        font-size: 14px;
+    }
+    .step8 h1{
+        font-weight: 800;
+        margin-top: -70px;
+        margin-bottom: 30px;
+        font-size: 40px;
+        
+    }
+    .plan h1{
+        font-size: 34px;
+        margin-top: -70px;  
+    }
+    .trainers h1{
+        font-weight:800;
+        margin-top: 20px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .choose h2{
+        font-size: 50px;
+        text-align: center;
+        font-weight: 900;
+        margin-top: 90px;
+        color: brown;
+    }
+    .choose p{
+        font-size: 14px;
+        padding-top:25px ;
+    }
+    .choose p span{
+        color: brown;
+        font-weight: 700;
+    }
+    .button{
+        margin-left: 16%;
+        padding: 13px 28px;
+        color: white;
+        background: brown;
+        border: 1px solid brown;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .btn3{
+        margin-top:25px ;
+        padding: 16px 38px;
+        font-size: 14px;
+        
+    }
+    .title{
+        padding-left:  75px;
+        padding-right: 75px;
+        margin-top: -36rem;
+    }
+    .title h1{
+        font-size: 32px;
+        
+    }
+    .title h4{
+        padding: 32px 0;
+        font-size: 14px;
+    }
+    .btn{
+        margin-top:20px ;
+        padding: 13px 36px;
+        font-size: 11px;
+    
+    }
+    
+    .step2 .container{
+        min-width: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .row{
+        min-width: 0px;
+        align-items: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .step2 img{
+        width: 100%;
+        
+    }
+    .title3{
+        padding-top: 80px;
+        height: 70vh;
+    }
+    .title3 h2{
+        font-size: 21px;
+        padding-top: 110px;
+    }
+    .col-4{
+        min-width: 40%;
+        min-height: 50vh;
+        justify-content: space-between;
+        margin:10px 0px;
+        align-items: center;
+        flex-direction: column;
+    
+     }
+    .col-4 img{
+        height: 50vh;  
+        width: 100%;      
+    }
+    .col-4 .caption2 h5{
+        font-size: 10px;
+        padding-bottom: 5px;
+    
+    }
+    .col-4 .caption2 h3{
+        font-size: 12px;
+    }
+    .col-4 .caption2{
+        padding: 16px 0 0 0;
+         
+    }
+.supplement{
+    margin: 20px 0px;
+    
+}
+.supplement p{
+    font-size: 10px;
+    padding-bottom: 7px;
+}
+.supplement .col-2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.supplement .col-2 img{
+    width: 65%;
+    height:60vh;
+    margin-top: 45px;
+    margin-inline: 120px;
+    
+    
+}
+
+.nutritions p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.nutritions h4{
+    padding-bottom: 7px;
+    padding-top:6px;
+    margin-left: 8px;
+}
+.nutritions ul li{
+    padding-bottom: 10px;
+    margin-left: 18px;
+    font-size: 11px;
+}
+.join2 .btn{
+    margin-top:10px ;
+    padding: 10px 15px;
+    font-size: 11px;
+}
+.join2 h1{
+    font-size: 15px;
+    padding-top: 9rem;
+}
+.join2{
+    padding:70px 20px;
+}
+.choose h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 90px;
+    color: brown;
+}
+.choose p{
+    text-align: center;
+    padding-top:30px;
+    font-size: 15px;
+}
+.choose p span{
+    color: brown;
+    font-weight: 700;
+}
+.button{
+    margin-left: 23%;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 9px 18px;
+}
+.step8 img{
+    width: 400px;
+    
+}
+.step3 .cardio img{
+    width: 400px;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.caption h3{
+    font-size: 18px;
+    padding: 11px 11%;
+    text-align: left;
+    font-weight: 800;
+    color: white;
+    margin-bottom:-50px;
+
+    
+}
+.boxing img{
+    width: 400px;
+}
+.boxing .caption h3{
+    font-size: 18px;
+    padding: 11px 11%;
+    margin-bottom: 20px;
+    
+}
+    .footer{
+        
+        height: 160vh;
+        margin-left: -50px;
+        margin-right: -50px;
+        background: #1d2026;
+        padding: 80px 0px;
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-between;
+        align-items: center;
+    
+        
+    }
+    .footer .links h6{
+        padding-top: 20px;
+    }
+    .footer .links{
+        margin-inline:75px ;
+        display: inline-block;
+        cursor: pointer;
+    
+    }
+    .footer .links h6{
+        color:brown;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }       
+    .footer .links p{
+        color: white;
+        padding-bottom: 17px;
+        font-size: 13px;
+    }
+    .footer .links p span{
+        color: brown;
+        font-size: 11px;
+        font-style: italic;
+    }
+    .fab.fa-facebook-square{
+        color: #3b5998;
+        font-size: 18px;
+        
+}
+.fab.fa-twitter{
+    color:#00acee;
+    font-size: 18px;
+    padding-right: 5px;
+}
+.fab.fa-instagram-square{
+    color: #8a3ab9 ;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.fab.fa-linkedin-in{
+    color: #0077b5;
+    font-size: 16px;
+}
+.fas.fa-phone-alt{
+    color: brown;
+    font-weight: 900;
+    font-size: 16px;
+}
+input{
+    width: 65%;
+    padding: 8px 4px;
+    
+}
+.btn5{
+    padding: 10px 8px;
+    background: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+   margin-top:10px ; 
+}
+.copy h6{
+    text-align: center;
+    margin-top: -10rem;
+    color: white;
+    font-size: 13px;
+    
+}
+.join h5{
+font-size: 12px;
+margin-top: -1rem;
+margin-bottom: -5rem;
+}
+.join p{
+font-size: 11px;
+padding-top: -1rem;
+}
+.join h1{
+font-size: 25px;
+padding-top:7rem;
+}
+.step4{
+padding: 90px 40px;
+}
+.title2 h1{
+font-size: 23px;
+font-weight: 700;
+margin-left: 1.6rem;
+}
+.title2 .btn{
+    margin-top: 40px;
+    margin-left: 5.8rem;
+}
+
+}
